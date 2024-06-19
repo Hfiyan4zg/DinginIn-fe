@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className="flex flex-row bg-[#EEF6FF] top-0 z-20 sticky w-full p-3 px-16 justify-between">
+    <div className="flex flex-row bg-[#EEF6FF] top-0 z-[999] sticky w-full p-3 px-16 justify-between">
       <div className="flex flex-row gap-3 items-center">
         <img 
         src="/logo-dingin.png"

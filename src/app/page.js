@@ -1,6 +1,8 @@
 import Image from "next/image";
 import MainSection from "@/components/home/MainSection";
 import Navbar from "@/components/global-component/navbar/Navbar";
+import Footer from "@/components/global-component/footer/Footer";
+import ContactUs from "@/components/global-component/contact-us/ContactUs";
 export default function Home() {
   // useEffect(() => {
   //   window.scrollTo(0, 0);
@@ -8,8 +10,10 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center">
       <Navbar />
-      <div className="flex bg-black-500 min-h-screen flex-col items-center justify-between p-24">
+      <div className="flex min-h-screen flex-col items-center justify-between">
         <MainSection />
+        <ContactUs />
+        <Footer />
       </div>
     </div>
   );
