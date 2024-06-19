@@ -19,7 +19,7 @@ function Offering() {
                 </div>
               </div>
             </div>
-          <div className="grid grid-cols-4 mb-20">
+          <div className="grid grid-cols-4 mb-20 text-white">
             {/* 1 */}
             <div className="bg-black w-[300px] h-[300px] ">
               <img src="/offer-grid-1.png" alt="offer-pic" className="w-full h-full" />
