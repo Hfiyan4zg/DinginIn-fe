@@ -29,10 +29,10 @@ function WhyUs() {
           </div>
       </div>
           <div className="flex flex-row  self-center mt-5 max-w-full w-[1384px] max-md:pl-5 max-md:mt-10 items-center relative">
-            <div className="flex flex-row max-md:flex-col max-md:gap-0 ">
-              <div className="flex flex-col w-full max-md:ml-0 max-md:w-full ">
+            <div className="flex flex-row max-md:flex-col max-md:gap-0">
+              <div className="flex flex-col w-full max-md:ml-0 max-md:w-full">
                 <div className=" bg-[url('/bgimage-technicianyellow.png')] my-auto max-md:mt-10 max-md:max-w-full p-20 ">
-                  <div className="flex gap-5 max-md:flex-col max-md:gap-0 mr-44 ">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0 mr-44">
                     <ServiceHighlight title="Teknisi Profesional" text="Teknisi kami yang berpengalaman terlatih untuk menangani berbagai model AC dan mengatasi masalah apa pun secara efektif." />
                     <ServiceHighlight title="Kepuasan Pelanggan" text="Teknisi kami yang berpengalaman terlatih untuk menangani berbagai model AC dan mengatasi masalah apa pun secara efektif." />
                     <ServiceHighlight title="Harga yang Transparan" text="Teknisi kami yang berpengalaman terlatih untuk menangani berbagai model AC dan mengatasi masalah apa pun secara efektif." />
