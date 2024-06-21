@@ -8,8 +8,8 @@ export default function Home() {
   //   window.scrollTo(0, 0);
   // }, []);
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center justify-between">
+    <div className="flex flex-col ">
+      <div className="flex flex-col justify-between">
         <MainSection />
         <ContactUs />
         <Footer />
