@@ -1,8 +1,8 @@
 import React from 'react'
-import HeroSection from './tentang-hero/HeroSection'
-import GambarSection from './gambar-section/GambarSection'
-import TeknisiKami from './teknisi-kami/TeknisiKami'
-import KomitmenKami from './komitmen/KomitmenKami'
+import HeroSection from '@/components/about-us/tentang-hero/HeroSection'
+import GambarSection from '@/components/about-us/gambar-section/GambarSection'
+import TeknisiKami from '@/components/about-us/teknisi-kami/TeknisiKami'
+import KomitmenKami from '@/components/about-us/komitmen/KomitmenKami'
 
 function TentangSection() {
   return (
