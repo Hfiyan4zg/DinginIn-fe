@@ -4,14 +4,14 @@ function Headline() {
   return (
     <div className="flex flex-row bg-[#EEF6FF] max-md:flex-col max-md:gap-0 relative h-[calc(100vh-6rem)]">
         <div className="flex flex-col">
-          <section className="self-start mt-0 ml-44 text-7xl font-bold text-black uppercase max-md:mt-5 max-md:max-w-full max-md:text-4xl">
-            <span className="font-bold ">Kurang </span>
-            <span className="font-bold  text-blue-500">Dingin?</span>
+          <section className="self-start mt-0 ml-44 text-7xl font-bold text-black uppercase max-md:mt-5 max-md:max-w-full max-md:text-4xl leading-tight">
+            <span className="font-bold ">Tenang </span>
+            <span className="font-bold  text-blue-500">Saja</span>.
             <br />
-            <span className="font-bold ">Tenang, Kami </span>
-            <span className="font-bold  text-yellow-400">Benerin</span>
+            <span className="font-bold ">Kami Punya </span>
+            <span className="font-bold  text-yellow-400">Solusinya</span>
           </section>
-          <section className="mt-3 ml-44 text-lg leading-8 text-ellipsis text-slate-600 w-[744px] max-md:max-w-full">
+          <section className=" ml-44 text-lg leading-8 text-ellipsis text-slate-600 w-[744px] max-md:max-w-full">
             Kami adalah spesialis dalam layanan perbaikan AC terbaik yang membawa kesejukan kembali ke ruangan Anda. 
           </section>
           <section className="flex gap-0 self-start mt-5   ml-44 shadow-lg max-md:ml-2.5">

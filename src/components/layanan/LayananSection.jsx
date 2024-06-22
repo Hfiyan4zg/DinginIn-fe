@@ -10,7 +10,7 @@ function LayananSection() {
       <HeroSection/>
       <KamiTawarkan/>
       <MengapaKami/>
-      {/* <GaleriKami/> */}
+      <GaleriKami/> 
     </div>
   )
 }

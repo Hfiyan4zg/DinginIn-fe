@@ -22,9 +22,33 @@ function GaleriKami() {
               </div>
             </section>
 
-            <section className='flex flex-row'>
+            {/* <section className='flex flex-row'>
               ax
-            </section>
+            </section> */}
+      {/* <section> */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols- gap-12  object-center mx-auto mt-16">
+          <div className="grid gap-10">
+            <div className="relative overflow-hidden rounded-lg">
+              <img className="h-full w-full object-cover object-center" src="/galeri/galeri-1.png" alt="Gambar 1" />
+            </div>
+            <div className="relative overflow-hidden rounded-lg">
+              <img className="h-full w-full object-cover object-center" src="/galeri/galeri-2.png" alt="Gambar 2" />
+            </div>
+            <div className="relative overflow-hidden rounded-lg">
+              <img className="h-full w-full object-cover object-center" src="/galeri/galeri-3.png" alt="Gambar 3" />
+            </div>
+          </div>
+          <div className="grid gap-10">
+            <div className="relative overflow-hidden rounded-lg">
+              <img className="h-full w-full object-cover object-center" src="/galeri/galeri-4.png" alt="Gambar 4" />
+            </div>
+            <div className="relative overflow-hidden rounded-lg">
+              <img className="h-full w-full object-cover object-center" src="/galeri/galeri-5.png" alt="Gambar 5" />
+            </div>
+            <div className='relative overflow-hidden rounded-lg bg-[#EEF6FF] h-[1200px] '></div>
+          </div>
+        </div>
+      {/* </section> */}
     </div>
   )
 }
