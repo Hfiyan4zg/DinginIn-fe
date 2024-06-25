@@ -29,7 +29,7 @@ function TeknisiKami() {
                 </p>
                 <div className="flex gap-5 justify-center mt-12 max-w-full text-center w-[362px] max-md:mt-10">
                   {technicians.map((tech, index) => (
-                    <div key={index} className="flex gap-0">
+                    <div key={index} className="flex gap-10 ml-0">
                       <img
                         src={tech.imgSrc}
                         className="shrink-0 max-w-full aspect-[1.2] w-[119px]"
@@ -48,36 +48,39 @@ function TeknisiKami() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+
+
+            <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full ">
               <div className="mt-5 max-md:mt-10 max-md:max-w-full">
-                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                  <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
-                    <div className="flex flex-col mt-12 max-md:mt-10">
-                      <figure className="flex overflow-hidden relative z-10 flex-col items-start self-end pb-20 max-w-full aspect-[0.51] w-[295px] max-md:pr-5">
+                <div className="flex  max-md:flex-col max-md:gap-0 relative">
+                  <div className="flex flex-col w-[120%] max-md:ml-0 max-md:w-full relative ">
+                    <div className="flex flex-col mt-12 max-md:mt-10 relative">
                         <img
                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/fac64e350939187563338c366f8811b099020ebb2d52c22ad0f36c65168e3ce5?apiKey=6aa320d50fc04f13ae8b58abb91612c7&"
-                          className="object-cover absolute inset-0 size-full"
+                          className="object-cover self-end inset-0 w-[295px] z-10"
                           alt="Technician training"
                         />
-                        <div className="relative z-10 shrink-0 mt-0 mb-80 bg-blue-600 h-[98px] w-[98px] max-md:mb-10" />
-                      </figure>
-                      <div className="shrink-0 bg-blue-500 h-[99px]" />
+                      <div className="absolute z-10 shrink-0 mt-0  bg-blue-600 h-[98px] w-[98px] max-md:mb-10 left-4 -top-12" />
+                      <div className="absolute mt-0 bg-blue-600 h-[98px] w-[219px] max-md:mb-10 left-0 -bottom-12" />
                     </div>
                   </div>
-                  <div className="flex flex-col ml-5 w-[55%] max-md:ml-0 max-md:w-full">
+
+                  {/* gambar kedua */}
+                  <div className="flex flex-col w-[120%] max-md:ml-0 max-md:w-full mt-32">
                     <div className="flex flex-col grow">
-                      <div className="flex gap-5 justify-between items-start">
-                        <div className="shrink-0 self-end mt-12 h-20 bg-yellow-400 w-[191px] max-md:mt-10" />
-                        <div className="shrink-0 self-start bg-yellow-400 h-[98px] w-[98px]" />
+                      <div className="flex gap-5 items-start relative">
+                        <div className="shrink-0 self-start bg-yellow-400 h-[98px] w-[98px] absolute right-0 -top-32" />
+                        <div className="shrink-0 self-start bg-yellow-400 h-[80px] w-[191px] absolute -left-20 z-20 -top-20" />
                       </div>
                       <img
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e1e7c38aa30a8e7dfb6cbed4261e145eb786c44ccfab820c7cde826767d26a5?apiKey=6aa320d50fc04f13ae8b58abb91612c7&"
-                        className="self-end mt-7 max-w-full aspect-[0.58] w-[315px]"
+                        className=" mt-7 self-end w-[315px] "
                         alt="Technician with customer"
                       />
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
