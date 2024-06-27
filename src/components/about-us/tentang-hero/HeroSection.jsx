@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div className="flex flex-col bg-blue-50">
+    <div className="flex flex-col bg-blue-50 max-md:flex-col max-md:gap-0 relative h-[calc(100vh-6rem)]">
       <section className="flex gap-5 mt-28 items-start">
           <div className="flex flex-col self-end px-5 mt-44 text-base font-bold leading-6 text-slate-600 max-md:mt-10 relative">
             <div className="ml-20 text-ellipsis mb-20">

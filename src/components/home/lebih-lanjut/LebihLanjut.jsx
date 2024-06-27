@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LearnMore() {
+function LebihLanjut() {
   return (
     <div>
         <section className="pb-10 w-full bg-blue-950 max-md:mt-10 max-md:max-w-full">
@@ -39,4 +39,4 @@ function LearnMore() {
   )
 }
 
-export default LearnMore
+export default LebihLanjut

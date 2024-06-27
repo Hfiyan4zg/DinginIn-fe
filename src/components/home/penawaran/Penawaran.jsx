@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Offering() {
+function Penawaran() {
   return (
     <div >
       <section className="flex flex-col px-20 py-20 w-full bg-white max-md:px-5 max-md:max-w-full">
@@ -80,4 +80,4 @@ function Offering() {
   )
 }
 
-export default Offering
+export default Penawaran

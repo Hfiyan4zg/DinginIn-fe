@@ -11,7 +11,7 @@ function ServiceHighlight({ title, text }) {
     </div>
   );
 }
-function WhyUs() {
+function MengapaKami() {
   return (
     <section className=" bg-[#EEF6FF] flex flex-col gap-5 self-center  w-full max-md:flex-wrap max-md:mt-10 max-md:max-w-full pb-40">
       <div className='flex flex-row gap-10 items-end p-20 mb-10'>
@@ -48,4 +48,4 @@ function WhyUs() {
   )
 }
 
-export default WhyUs
+export default MengapaKami
