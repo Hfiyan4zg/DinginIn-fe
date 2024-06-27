@@ -22,9 +22,7 @@ function GaleriKami() {
               </div>
             </section>
 
-            {/* <section className='flex flex-row'>
-              ax
-            </section> */}
+
       {/* <section> */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols- gap-12  object-center mx-auto mt-16">
           <div className="grid gap-10">

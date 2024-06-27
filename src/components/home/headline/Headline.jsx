@@ -37,7 +37,6 @@ function Headline() {
             <div className="shrink-0 self-start bg-blue-100 h-[150px] w-[150px]" />
             <div className="shrink-0 self-end mt-36 max-w-full bg-blue-600 h-[150px] w-[405px] max-md:mt-10" />
           </div>
-            {/* <div className="shrink-0 self-start bg-blue-950 h-[150px] w-[150px] ml-20" /> */}
         </section>
         </div>
         <img src="/repairman-home.png" alt="" className='z-10 sticky right-10'/>
